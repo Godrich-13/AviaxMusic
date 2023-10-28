@@ -23,19 +23,6 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 text="🔧 Settings", callback_data="settings_helper"
             ),                                   
-        ],
-        [
-            InlineKeyboardButton(
-                text="📣 Updates Channel", url="https://t.me/AviaxOfficial"
-            ),
-            InlineKeyboardButton(
-                text="💬 Support Group", url="https://t.me/AviaxSupport"
-            ),                       
-        ],
-        [
-            InlineKeyboardButton(
-                text="🔗 Deploy your own bot", url="https://github.com/TeamAviax/AviaxMusic"
-            ),                                  
         ]
     ]
 )
@@ -51,19 +38,6 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
                 text="📚 Commands", callback_data="command_menu"
             ),                       
         ],
-        [
-            InlineKeyboardButton(
-                text="📣 Updates Channel", url="https://t.me/AviaxOfficial"
-            ),
-            InlineKeyboardButton(
-                text="💬 Support Group", url="https://t.me/AviaxSupport"
-            ),                       
-        ],
-        [
-            InlineKeyboardButton(
-                text="🔗 Deploy your own bot", url="https://github.com/TeamAviax/AviaxMusic"
-            ),                                  
-        ]
     ]
 )
 
